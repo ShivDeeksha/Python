@@ -6,7 +6,7 @@ def validate():
   upper='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   number='0123456789'
   special='@$_'
-  if len(pwd)>=8:
+  if len(pwd)>=8 and (pwd[0] not in number):
     for i in pwd:
       if (i in small):
         l=l+1
