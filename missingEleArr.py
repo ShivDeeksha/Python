@@ -7,7 +7,7 @@ def allSum(n):
   return sum
   
 arr=np.array([])
-print("Find one missing number from entered array: \n")
+print("Find one missing number from entered array: \nNote: Please don'i include duplicate Elements\n")
 n=int(input("Enter the size of array (1-100): "))
 print("Enter elements(1-",n,"): ")
 sum=allSum(n)
