@@ -1,3 +1,4 @@
+
 def swapCase(s):
     res=''
     for i in s:
@@ -8,4 +9,4 @@ def swapCase(s):
         else:
             res=res+i
     return res
-swapCase("Hello tHerE!!")
+print(swapCase("Hello tHerE!!"))
